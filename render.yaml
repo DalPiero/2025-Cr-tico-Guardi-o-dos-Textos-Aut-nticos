@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: 2025-critico-api
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python api_2025_critico.py
